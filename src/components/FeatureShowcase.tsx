@@ -7,7 +7,7 @@ import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const basePath = '';
+const basePath = '/AxionAOSP.github.io';
 const ss = (name: string) => `${basePath}/assets/${name}`;
 
 /* ───────────────────────────── FEATURE GROUPS ───────────────────────────── */
