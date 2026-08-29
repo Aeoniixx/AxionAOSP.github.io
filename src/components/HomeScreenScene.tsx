@@ -246,6 +246,18 @@ export default function HomeScreenScene() {
 
           {/* Card 4: App Drawer */}
           <div className="order-2 md:order-none showcase-card relative rounded-[2rem] bg-white/[0.02] border border-white/10 overflow-hidden group w-full">
+            <div className="p-8 md:p-12 pb-0">
+              <span className="text-[10px] uppercase tracking-[0.2em] text-purple-400 font-bold mb-3 block">
+                App Drawer
+              </span>
+              <h3 className="text-3xl font-medium text-white mb-3">
+                Smart Categories
+              </h3>
+              <p className="text-sm text-white/70 max-w-sm">
+                Automatically organized folders with instantly searchable apps and widgets.
+              </p>
+            </div>
+
             <div className="aspect-[4/3] relative w-full overflow-hidden">
               {appDrawerImages.map((src, i) => (
                 <Image 
@@ -258,18 +270,6 @@ export default function HomeScreenScene() {
                 />
               ))}
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90 z-20 pointer-events-none" />
-              
-              <div className="absolute bottom-0 left-0 p-8 md:p-12 w-full z-30">
-                <span className="text-[10px] uppercase tracking-[0.2em] text-purple-400 font-bold mb-3 block">
-                  App Drawer
-                </span>
-                <h3 className="text-3xl font-medium text-white mb-3">
-                  Smart Categories
-                </h3>
-                <p className="text-sm text-white/70 max-w-sm">
-                  Automatically organized folders with instantly searchable apps and widgets.
-                </p>
-              </div>
             </div>
           </div>
 
